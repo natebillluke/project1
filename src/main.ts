@@ -28,17 +28,17 @@ type SkillGroup = {
 }
 
 const profile = {
-  name: 'Your Name',
-  role: 'Web developer',
-  tagline: 'I build fast, clear websites and small tools that do one thing well.',
-  photo: '/images/me.jpg',
+  name: 'Nathaniel Ochoa',
+  role: 'I.T Specialist',
+  tagline: 'Assisting In Dealership Network Infrastructure ',
+  photo: '/public/images/Fernando.1.jpg',
   email: 'nate@billluke.com',
   github: 'https://github.com/natebillluke',
 }
 
 const about = {
   paragraphs: [
-    'Write two or three sentences here about who you are and what you like to build.',
+    ' ',
     'Mention what you are learning right now, or what kind of work you want next.',
   ],
   photos: [
