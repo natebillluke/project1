@@ -39,7 +39,8 @@ const profile = {
 const about = {
   paragraphs: [
     ' ',
-    'Mention what you are learning right now, or what kind of work you want next.',
+    'Helping & Securing A Family Owned Dealership Creating Email Accounts Setting Up Work Stations Providing VOIP and providing On Hands help'
+    , '',
   ],
   photos: [
     { src: '/images/about-1.jpg', alt: 'Me at my desk' },
@@ -49,16 +50,14 @@ const about = {
 
 const projects: Project[] = [
   {
-    title: 'Project one',
-    blurb: 'One sentence on what it does and who it is for. Lead with the result.',
+    title: 'Home Lab',
+    blurb: 'Self Hosted Network Stack Building & Deploying Personal Tools',
     image: '/images/project-1.jpg',
-    tags: ['TypeScript', 'Vite'],
-    live: '#',
-    code: '#',
+    tags: ['JellyFin', 'Proxmox'],
   },
   {
-    title: 'Project two',
-    blurb: 'Describe the problem you solved and the one decision you are proud of.',
+    title: 'Portfolio',
+    blurb: '',
     image: '/images/project-2.jpg',
     tags: ['HTML', 'CSS'],
     code: '#',
@@ -74,22 +73,28 @@ const projects: Project[] = [
 
 const skills: SkillGroup[] = [
   { name: 'Languages', items: ['TypeScript', 'JavaScript', 'HTML', 'CSS'] },
-  { name: 'Tools', items: ['Git', 'GitHub', 'Vite', 'npm', 'VS Code'] },
+  { name: 'Tools', items: ['Git', 'GitHub', 'Vite', 'npm', 'VS Code', 'Reynolds & Reynolds', 'Adobe'] },
   { name: 'Environments', items: ['Windows', 'Linux (Arch)'] },
 ]
 
 const experience: Job[] = [
   {
-    role: 'Job title or degree',
-    place: 'Company or school',
-    when: '2024 to now',
+    role: 'IT Specialist Dodge',
+    place: 'Bill Luke ',
+    when: '2025 to now',
     points: ['One line on what you did and the result.', 'Another line, ideally with a number.'],
   },
   {
-    role: 'Earlier role or course',
-    place: 'Company or school',
-    when: '2022 to 2024',
-    points: ['What you were responsible for.'],
+    role: 'PHX Engine Specialist',
+    place: 'Auto Machine Shop',
+    when: '2022 to 2025',
+    points: ['Disassembaling Engines,Clean Engine Components,Build Engine Crates.Receive & Ship Engine.'],
+  },
+  {
+    role: 'Bank Teller',
+    place: 'Wells Fargo',
+    when: '2019 to 2020',
+    points: ['Complete Memeber Transactions, Update Current Members, Create Trust and Build Report With Members'],
   },
 ]
 
