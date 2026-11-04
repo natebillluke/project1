@@ -31,7 +31,7 @@ const profile = {
   name: 'Nathaniel Ochoa',
   role: 'I.T Specialist',
   tagline: 'Assisting In Dealership Network Infrastructure ',
-  photo: '/public/images/Fernando.1.jpg',
+  photo: '/public/images/me.jpg',
   email: 'nate@billluke.com',
   github: 'https://github.com/natebillluke',
 }
@@ -95,6 +95,12 @@ const experience: Job[] = [
     place: 'Wells Fargo',
     when: '2019 to 2020',
     points: ['Complete Memeber Transactions, Update Current Members, Create Trust and Build Report With Members'],
+  },
+  {
+    role: 'Caterer',
+    place: 'Classic Cattering',
+    when: '2016 to 2023 (Seasonal)',
+    points: ['Menu Planning, Food Prep, Transport, Event Setup & Breakdown, Safety & Sanitation']
   },
 ]
 
