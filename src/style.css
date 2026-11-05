@@ -629,3 +629,15 @@ ol {
     transition-duration: 0.01ms !important;
   }
 }
+
+.playlist {
+  margin-top: 40px;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.playlist iframe {
+  display: block;
+  border: 0;
+}

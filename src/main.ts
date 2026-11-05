@@ -34,6 +34,7 @@ const profile = {
   photo: '/public/images/me.jpg',
   email: 'nate@billluke.com',
   github: 'https://github.com/natebillluke',
+  playlistId: '3cNsh3AVPUvJRCgHrxCwxb',
 }
 
 const about = {
@@ -183,6 +184,17 @@ app.innerHTML = `
       <div class="hero-photo">
         ${imageSlot(profile.photo, `Portrait of ${profile.name}`, 'portrait', true)}
       </div>
+              ${profile.playlistId
+    ? `<div class="playlist">
+                <iframe
+                  title="My Spotify playlist"
+                  src="https://open.spotify.com/embed/playlist/${profile.playlistId}?utm_source=generator&theme=0"
+                  width="100%" height="152" loading="lazy"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                ></iframe>
+              </div>`
+    : ''
+  }
     </section>
 
     <section id="about" class="section">
@@ -214,7 +226,7 @@ app.innerHTML = `
 
     <section id="contact" class="section contact">
       <h2>Contact</h2>
-      <p class="contact-lead">Have a project or a role in mind? Send a note.</p>
+      <p class="contact-lead">Best Way to Contact:  </p>
       <div class="contact-links">
         <a class="btn btn-primary" href="mailto:${profile.email}">${profile.email}</a>
         <a class="btn" href="${profile.github}" target="_blank" rel="noopener">GitHub</a>
