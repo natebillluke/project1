@@ -32,7 +32,7 @@ const profile = {
   role: 'I.T Specialist',
   tagline: 'Assisting In Dealership Network Infrastructure ',
   photo: '/public/images/me.jpg',
-  email: 'nate@billluke.com',
+  email: 'nathanielochoa19@gmail.com',
   github: 'https://github.com/natebillluke',
   playlistId: '3cNsh3AVPUvJRCgHrxCwxb',
 }
