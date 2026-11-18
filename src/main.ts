@@ -44,8 +44,8 @@ const about = {
     , '',
   ],
   photos: [
-    { src: '/images/about-1.jpg', alt: 'Me at my desk' },
-    { src: '/images/about-2.jpg', alt: 'Me away from the keyboard' },
+    { src: '/public/images/IMG_3213.jpeg', alt: 'Me at my desk' },
+    { src: '/public/images/IMG_0270.jpeg', alt: 'Me away from the keyboard' },
   ],
 }
 
